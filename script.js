@@ -25,27 +25,26 @@ document.addEventListener('DOMContentLoaded', function() {
     loadingScreen.style.display = 'none';
   }
 
-  // For every menu button in the document
-  document.querySelectorAll('.simple-nav-menu').forEach(function(menuBtn) {
-    var dropdownMenu = menuBtn.parentElement.querySelector('.dropdown-menu');
-    if (dropdownMenu) {
-      menuBtn.addEventListener('click', function(event) {
-        event.stopPropagation();
-        // Hide all other dropdowns
-        document.querySelectorAll('.dropdown-menu').forEach(function(menu) {
-          if (menu !== dropdownMenu) menu.style.display = 'none';
+  // Mobile/Tablet only: dropdown toggle
+  if (window.innerWidth <= 900) {
+    document.querySelectorAll('.simple-nav-menu').forEach(function(menuBtn) {
+      var dropdownMenu = menuBtn.parentElement.querySelector('.dropdown-menu');
+      if (dropdownMenu) {
+        menuBtn.addEventListener('click', function(event) {
+          event.stopPropagation();
+          document.querySelectorAll('.dropdown-menu').forEach(function(menu) {
+            if (menu !== dropdownMenu) menu.style.display = 'none';
+          });
+          dropdownMenu.style.display = (dropdownMenu.style.display === 'block') ? 'none' : 'block';
         });
-        // Toggle this one
-        dropdownMenu.style.display = (dropdownMenu.style.display === 'block') ? 'none' : 'block';
-      });
-      // Hide dropdown when clicking outside
-      document.addEventListener('click', function(event) {
-        if (!dropdownMenu.contains(event.target) && event.target !== menuBtn) {
-          dropdownMenu.style.display = 'none';
-        }
-      });
-    }
-  });
+        document.addEventListener('click', function(event) {
+          if (!dropdownMenu.contains(event.target) && event.target !== menuBtn) {
+            dropdownMenu.style.display = 'none';
+          }
+        });
+      }
+    });
+  }
 
   // Burger menu functionality for tablet
   const burger = document.getElementById('burger');
