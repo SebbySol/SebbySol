@@ -1,189 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Works</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Inter:400,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Works</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+
+<body>        
+  <!-- Loading Screen - Mobile & Tablet Only -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loader">
+      <div class="loader-text">Loading...</div>
+      <div class="loader-bar"></div>
+    </div> 
+  </div>
   
-<section class="gallery-section photoshop-gallery">
-  <nav class="simple-nav">
-    <a href="index.html" class="btn simple-nav-home">Home</a>
-    <div style="flex: 1;"></div>
-    <button class="btn btn-menu simple-nav-menu" type="button">
-      <span>Menu</span>
-      <span class="hamburger">
-        <span></span><span></span><span></span>
-      </span>
-    </button>
-    <div class="dropdown-menu">
-      <a href="#about">About</a>
-      <a href="#works">Works</a>
-      <a href="#contact">Contact</a>
+
+  <nav class="hero-nav works-nav" role="navigation">
+    <div class="nav-left">
+      <a class="nav-home" href="index.html">Home</a>
+    </div>
+
+    <div class="nav-center">
+      <div class="dropdown-menu" id="heroNavLinks">
+        <a href="index.html#about">About</a>
+        <a href="works.html">Works</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <button class="btn btn-primary">Let's Talk</button>
+      <button class="btn btn-menu simple-nav-menu" type="button" aria-label="Open menu">
+        <span>Menu</span>
+        <span class="hamburger" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+      <label class="burger" for="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
     </div>
   </nav>
-  <h2 class="gallery-title">Photoshop</h2>
-  <div class="gallery-row">
-    <div class="gallery-card">
-      <img src="BMTH.png" alt="Bring Me The Horizon Poster" />
-    </div>
-    <div class="gallery-card">
-      <img src="orocan_sample.jpg" alt="Orocan Poster" />
-    </div>
-    <div class="gallery-card">
-      <img src="luna.png" alt="Luna's Birthday" />
-    </div>
-    <div class="gallery-card">
-      <img src="surfer.png" alt="Silver Surfer" />
-    </div>
-    <div class="gallery-card">
-      <img src="TICAP_Cross_Guild.png" alt="Stray Poster" />
-    </div>
-    <div class="gallery-card">
-      <img src="STRAYS.png" alt="Stray" />
-    </div>
-  </div>
-</section>
-  
-    <section class="illustrator-section">
-      <h2 class="illustrator-title">Illustrator</h2>
-      <div class="masonry" style="margin-top: 32px;">
-        <div class="masonry-item">
-          <a href="BMTH.png" target="_blank" class="card-hover-container">
-            <img src="BMTH.png" alt="BMTH" />
-            <div class="card-hover-overlay">
-              <div class="card-hover-content">
-                <span class="card-title">BMTH</span>
-                <button class="card-view-btn" onclick="window.open('BMTH.png','_blank');event.stopPropagation();return false;">View</button>
+
+  <section class="photoshop-section">
+        <h2 class="photoshop-title">Photoshop</h2>
+        <div class="masonry" style="margin-top: 32px;">
+
+          <div class="masonry-item card-hover-container" data-title="Amoebiasis" data-description="An educational infographic designed to explain Amoebiasis in a clear and visually engaging way. Featuring concise text, organized sections, and relevant imagery, the layout guides viewers through the disease’s causes, symptoms, transmission, and prevention. The design balances informative content with approachable visuals, making it accessible for a wide range of audiences.">
+              <img src="amoeba.png" alt="Infographics" />
+              <div class="card-hover-overlay">
+                <div class="card-hover-content">
+                  <span class="card-title">Amoebiasis</span>
+                <button class="card-view-btn">View</button>
               </div>
             </div>
-          </a>
-        </div>
-        <div class="masonry-item">
-          <a href="luna.png" target="_blank" class="card-hover-container">
-            <img src="luna.png" alt="Luna" />
+          </div>
+
+          <div class="masonry-item card-hover-container" data-title="Linked" data-description="Linked">
+              <img src="chains.png" alt="Linked" />
+              <div class="card-hover-overlay">
+                <div class="card-hover-content">
+                  <span class="card-title">Linked</span>
+                <button class="card-view-btn">View</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="masonry-item card-hover-container" data-title="BMTH Poster" data-description="A bold tribute to Bring Me The Horizon, featuring live concert visuals, torn-paper effects, and striking red accents that capture the band’s raw energy and emotion.">
+              <img src="BMTH.png" alt="BMTH" />
+              <div class="card-hover-overlay">
+                <div class="card-hover-content">
+                  <span class="card-title">BMTH Poster</span>
+                <button class="card-view-btn">View</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="masonry-item card-hover-container" data-title="Luna" data-description="Luna">
+              <img src="sema1.png" alt="Luna" />
+              <div class="card-hover-overlay">
+                <div class="card-hover-content">
+                  <span class="card-title">Luna</span>
+                <button class="card-view-btn">View</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="masonry-item card-hover-container" data-title="Portrait of a Graduate" data-description="A clean, student-friendly banner designed during my internship for Richer Picture’s website, promoting a webinar titled How Digital Badges Bring the Portrait of a Graduate to Life. Created with elementary students in mind, the design uses simple, approachable visuals and clear typography to make the topic engaging and easy to understand while maintaining a professional, educational tone.">
+            <img src="mobrp.png" alt="Luna" />
             <div class="card-hover-overlay">
               <div class="card-hover-content">
                 <span class="card-title">Luna</span>
-                <button class="card-view-btn" onclick="window.open('luna.png','_blank');event.stopPropagation();return false;">View</button>
-              </div>
+              <button class="card-view-btn">View</button>
             </div>
-          </a>
+          </div>
         </div>
-        <div class="masonry-item">
-          <a href="sema1.png" target="_blank" class="card-hover-container">
-            <img src="sema1.png" alt="Semaphore" />
+
+          <div class="masonry-item card-hover-container" data-title="Thom Yorke" data-description="The grainy, textured backdrop and layered typography give the image a raw, experimental feel much like Radiohead’s genre-defying sound. It’s the kind of portrait that doesn’t just show a musician, but encapsulates the restless creativity and refusal to conform that has defined Yorke’s career.">
+            <img src="thom.png" alt="Luna" />
             <div class="card-hover-overlay">
               <div class="card-hover-content">
-                <span class="card-title">Semaphore</span>
-                <button class="card-view-btn" onclick="window.open('sema1.png','_blank');event.stopPropagation();return false;">View</button>
+                <span class="card-title">Luna</span>
+              <button class="card-view-btn">View</button>
+            </div>
+          </div>
+        </div>
+
+          <div class="masonry-item card-hover-container" data-title="Luna Turns Four" data-description="A whimsical yet spooky birthday poster created for my niece’s 4th birthday, inspired by The Nightmare Before Christmas. Set against a rich purple backdrop and adorned with beloved characters from the film, the design blends playful celebration with Tim Burton’s iconic gothic style. The typeface mirrors the movie’s distinctive lettering, creating a festive piece that captures both the eerie charm and joyful spirit of the occasion.">
+              <img src="luna.png" alt="Luna" />
+              <div class="card-hover-overlay">
+                <div class="card-hover-content">
+                  <span class="card-title">Luna</span>
+                <button class="card-view-btn">View</button>
               </div>
             </div>
-          </a>
-        </div>
-        <div class="masonry-item">
-          <a href="glassed.png" target="_blank" class="card-hover-container">
-            <img src="glassed.png" alt="Glassed" />
-            <div class="card-hover-overlay">
-              <div class="card-hover-content">
-                <span class="card-title">Glassed</span>
-                <button class="card-view-btn" onclick="window.open('glassed.png','_blank');event.stopPropagation();return false;">View</button>
+          </div>
+
+          <div class="masonry-item card-hover-container" data-title="Orocan Tabo" data-description="A parody poster for Orocan Tabo inspired by the 28 film trilogy, playfully reimagined as 28 Years Later to mark the long-awaited sequel. Using a horror-themed design, gritty textures, and cinematic elements, the poster humorously highlights the product’s unmatched durability, suggesting it could survive even decades of apocalyptic chaos.">
+              <img src="orocan_sample.jpg" alt="Orocan Tabo" />
+              <div class="card-hover-overlay">
+                <div class="card-hover-content">
+                  <span class="card-title">Orocan Tabo</span>
+                <button class="card-view-btn">View</button>
               </div>
             </div>
-          </a>
-        </div>
-        <div class="masonry-item">
-          <a href="cadcacas.png" target="_blank" class="card-hover-container">
-            <img src="cadcacas.png" alt="Cadcacas" />
-            <div class="card-hover-overlay">
-              <div class="card-hover-content">
-                <span class="card-title">Black</span>
-                <button class="card-view-btn" onclick="window.open('cadcacas.png','_blank');event.stopPropagation();return false;">View</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="masonry-item">
-          <a href="glass.jfif" target="_blank" class="card-hover-container">
-            <img src="glass.jfif" alt="Glass" />
-            <div class="card-hover-overlay">
-              <div class="card-hover-content">
-                <span class="card-title">Glass</span>
-                <button class="card-view-btn" onclick="window.open('glass.jfif','_blank');event.stopPropagation();return false;">View</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="masonry-item">
-          <a href="wave.jfif" target="_blank" class="card-hover-container">
-            <img src="wave.jfif" alt="Wave" />
-            <div class="card-hover-overlay">
-              <div class="card-hover-content">
-                <span class="card-title">Wave</span>
-                <button class="card-view-btn" onclick="window.open('wave.jfif','_blank');event.stopPropagation();return false;">View</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="masonry-item">
-          <a href="cj.jfif" target="_blank" class="card-hover-container">
-            <img src="cj.jfif" alt="GTA" />
-            <div class="card-hover-overlay">
-              <div class="card-hover-content">
-                <span class="card-title">GTA</span>
-                <button class="card-view-btn" onclick="window.open('cj.jfif','_blank');event.stopPropagation();return false;">View</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="masonry-item">
-          <a href="orocan_sample.jpg" target="_blank" class="card-hover-container">
-            <img src="orocan_sample.jpg" alt="Orocan" />
-            <div class="card-hover-overlay">
-              <div class="card-hover-content">
-                <span class="card-title">Orocan</span>
-                <button class="card-view-btn" onclick="window.open('orocan_sample.jpg','_blank');event.stopPropagation();return false;">View</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="masonry-item">
-          <a href="surfer.png" target="_blank" class="card-hover-container">
-            <img src="surfer.png" alt="Surfer" />
-            <div class="card-hover-overlay">
-              <div class="card-hover-content">
-                <span class="card-title">Silver Surfer</span>
-                <button class="card-view-btn" onclick="window.open('surfer.png','_blank');event.stopPropagation();return false;">View</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="masonry-item">
-          <a href="TICAP_Cross_Guild.png" target="_blank" class="card-hover-container">
-            <img src="TICAP_Cross_Guild.png" alt="TICAP Cross Guild" />
-            <div class="card-hover-overlay">
-              <div class="card-hover-content">
-                <span class="card-title">TICAP Cross Guild</span>
-                <button class="card-view-btn" onclick="window.open('TICAP_Cross_Guild.png','_blank');event.stopPropagation();return false;">View</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="masonry-item">
-          <a href="STRAYS.png" target="_blank" class="card-hover-container">
-            <img src="STRAYS.png" alt="Strays" />
-            <div class="card-hover-overlay">
-              <div class="card-hover-content">
-                <span class="card-title">Strays</span>
-                <button class="card-view-btn" onclick="window.open('STRAYS.png','_blank');event.stopPropagation();return false;">View</button>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
+          </div>
+          
+       </div>
     </section>
+
+  <section class="figma-section">
+    <h2 class="figma-title">Figma</h2>
+    <div class="figma-gallery">
+      <div class="figma-gallery-row">
+        
+        <div class="figma-gallery-card card-hover-container" data-title="Harvest2Home" data-description="Harvest2Home seeks to connect farmers directly to
+        consumers. The purpose of building Harvest2Home is
+        to address challenges such as limited market
+        access for farmers, inefficiencies in the supply
+        chain, and the increasing demand for transparency
+        and sustainability in food sourcing.">
+          <img src="harvest.jpg" alt="Harvest2Home" />
+          <div class="card-hover-overlay">
+            <div class="card-hover-content">
+              <span class="card-title">Harvest2Home</span>
+              <button class="card-view-btn">View</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="figma-gallery-card card-hover-container" data-title="TQC" data-description="
+        TQC (The Queens Clinic) was built to modernize the clinic's operations by transitioning from
+        traditional paper-based methods to a more efficient digital system. As the
+        Web Designer and Front-end Developer, I was responsible for designing
+        the user interfaces (UI) for both the client side and admin side of the
+        system. My role involved creating intuitive, user-friendly designs that
+        made it easy for staff to navigate the system and for patients to manage
+        their appointments.">
+          <img src="TQC.jpg" alt="TQC" />
+          <div class="card-hover-overlay">
+            <div class="card-hover-content">
+              <span class="card-title">TQC</span>
+              <button class="card-view-btn">View</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="figma-gallery-card card-hover-container" data-title="Rakk Gears" data-description="
+          For our e-commerce project, we chose Rakk Gears as
+          our client and designed a sample website to showcase
+          their innovative gaming products. I focused on creating
+          sleek visuals and a user-friendly interface to highlight
+          their commitment to delivering exceptional gear for the
+          gaming community.">
+          <img src="rakk.jpg" alt="Rakk Gears" />
+          <div class="card-hover-overlay">
+            <div class="card-hover-content">
+              <span class="card-title">Rakk Gears</span>
+              <button class="card-view-btn">View</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="figma-gallery-card card-hover-container" data-title="SmartBudgetor" data-description="A web app where users can upload bank statements, input expenses, or connect mock bank data, and an AI agent analyzes their spending, gives budgeting advice, and answers financial questions.">
+          <img src="SMARTBUDGETOR.png" alt="SmartBudgetor" />
+          <div class="card-hover-overlay">
+            <div class="card-hover-content">
+              <span class="card-title">SmartBudgetor</span>
+              <button class="card-view-btn">View</button>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section> 
+      
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-content">
+    <p class="footer-copyright">Copyright © 2024 SebbySol. All rights Reserved</p>
+  </div>
+</footer>
+
+<!-- Modal for card popup -->
+<div id="cardModal" class="card-modal">
+  <div class="card-modal-content">
+    <span class="card-modal-close" id="cardModalClose">&times;</span>
+    <img id="modalImage" src="" alt="Popup Image" />
+    <div class="card-modal-info">
+      <h3 id="modalTitle"></h3>
+      <p id="modalDescription"></p>
+    </div>
+  </div>
+</div>
+
+    
+<script src="script.js"></script>
+
 </body>
 </html>
