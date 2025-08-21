@@ -112,7 +112,7 @@ body.loading {
 }
 
 /* Hide loading screen on desktop */
-@media (min-width: 901px) {
+@media (min-width: 1000px) {
   .loading-screen {
     display: none !important;
   }
@@ -254,16 +254,6 @@ body {
   z-index: 2000;
 }
 
-/* Ensure nav shows on Works page even without a hero section */
-@media (min-width: 1200px) and (max-width: 1527px) {
-  .works-nav { position: fixed; top: 50px; left: 5vw; right: 5vw; z-index: 3000; }
-  .nav-home {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: 'SFThin', Arial, sans-serif;
-    font-size: 1.5rem;
-  }
-}
 @media (min-width: 1000px) and (max-width: 1899px) {
   .works-nav { position: fixed; top: 50px; left: 5vw; right: 5vw; z-index: 3000; }
   .hero-nav .nav-left { justify-self: start; }
@@ -276,20 +266,6 @@ body {
     font-size: 1.5rem;
   }
 }
-
-@media (min-width: 1900px) {
-  .works-nav { position: fixed; top: 50px; left: 5vw; right: 5vw; z-index: 3000; }
-  .hero-nav .nav-left { justify-self: start; }
-  .hero-nav .nav-center { justify-self: center; }
-  .hero-nav .nav-right { justify-self: end; display: flex; gap: 16px; align-items: center; }
-  .nav-home {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: 'SFThin', Arial, sans-serif;
-    font-size: 1.5rem;
-  }
-}
-
 
 .btn {
   font-family: inherit;
@@ -395,7 +371,7 @@ body {
 }
 
 /* Navigation: show links inline on desktop sizes only (1528–1899px and 1900px+) */
-@media (min-width: 1528px) and (max-width: 1899px) {
+@media (min-width: 1000px) and (max-width: 1899px) {
   .hero-nav { grid-template-columns: 1fr auto 1fr; }
   .hero-nav .btn-menu, .hero-nav .burger {
     display: none !important;
@@ -433,7 +409,7 @@ body {
 }
 
 /* Desktop fallback (1200px–1527px) to ensure center links show on mid-wide screens */
-@media (min-width: 1000px) and (max-width: 1527px) {
+@media (min-width: 1000px) and (max-width: 1899px) {
   .hero-nav { grid-template-columns: 1fr auto 1fr; }
   .hero-nav .btn-menu,
   .hero-nav .burger { display: none !important; }
@@ -466,42 +442,7 @@ body {
   }
 }
 
-@media (min-width: 1900px) {
-  .hero-nav { grid-template-columns: 1fr auto 1fr; }
-  .hero-nav .btn-menu,
-  .hero-nav .burger {
-    display: none !important;
-  }
-  .nav-right .btn-primary { display: inline-flex; }
-  .nav-right .simple-nav-menu { display: none !important; }
 
-  .hero-nav .dropdown-menu {
-    display: flex !important;
-    position: static;
-    background: transparent;
-    border: 0;
-    box-shadow: none;
-    min-width: unset;
-    gap: 88px;
-    padding: 0;
-  }
-
-  .hero-nav .dropdown-menu a {
-    padding: 0.35em 1.4em;
-    border: 0;
-    color: #ffffff;
-    font-size: 1.5rem;
-    border-radius: 9999px;
-    border: 2px solid transparent;
-    transition: all 0.3s ease;
-  }
-
-  .hero-nav .dropdown-menu a:hover {
-    background: rgba(255,255,255,0.1);
-    color: #ffffff;
-    border: 2px solid #ffffff;
-  }
-}
 
 /* PROJECTS INTRO - DESKTOP */
 .projects-intro {
@@ -755,73 +696,10 @@ body {
     justify-content: center;
     align-items: center;
   }
-
-  /* BURGER MENU - TABLET */
-  .burger {
-    position: relative;
-    width: 40px;
-    align-items: center;
-    margin-top: 10%;
-    height: 30px;
-    background: transparent;
-    cursor: pointer;
-    display: block;
-  }
   
   /* Hide old menu button on tablet */
   .btn-menu {
     display: none !important;
-  }
-
-  .burger input {
-    display: none;
-  }
-
-  .burger span {
-    display: block;
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    background: rgb(255, 255, 255);
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
-  }
-
-  .burger span:nth-of-type(1) {
-    top: 0px;
-    transform-origin: left center;
-  }
-
-  .burger span:nth-of-type(2) {
-    top: 50%;
-    transform: translateY(-50%);
-    transform-origin: left center;
-  }
-
-  .burger span:nth-of-type(3) {
-    top: 100%;
-    transform-origin: left center;
-    transform: translateY(-100%);
-  }
-
-  .burger input:checked ~ span:nth-of-type(1) {
-    transform: rotate(45deg);
-    top: 0px;
-    left: 5px;
-  }
-
-  .burger input:checked ~ span:nth-of-type(2) {
-    width: 0%;
-    opacity: 0;
-  }
-
-  .burger input:checked ~ span:nth-of-type(3) {
-    transform: rotate(-45deg);
-    top: 28px;
-    left: 5px;
   }
 
   /* Disable card hover overlay for tablet and below */
@@ -945,17 +823,6 @@ body {
   .hero-bottom-left,
   .hero-bottom-right {
     display: none;
-  }
-
-  /* NAVIGATION - MOBILE */
-  .hero-nav {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    display: flex;
-    gap: 0;
-    align-items: center;
-    z-index: 100;
   }
 
   .btn-primary {
@@ -1257,7 +1124,7 @@ body {
    SMALL MOBILE - RESPONSIVE STYLES (max-width: 480px)
    ======================================== */
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   /* Disable scrolling when loading screen is active on small mobile */
   body.loading {
     overflow: hidden !important;
@@ -1383,7 +1250,6 @@ body {
       align-items: flex-start;
       justify-content: flex-start;
   }
-}
 
   /* FIGMA SECTION - SMALL MOBILE */
   .figma-section {
@@ -1391,7 +1257,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 330px;
     border-radius: 0;
     position: relative;
     width: 100%;
@@ -2084,7 +1950,7 @@ body {
 
   /* FIGMA SECTION - DESKTOP */
   .figma-section {
-    height: 500px;
+    height: 650px;
     padding: 3.5vw 0vw 6vw 5vw;
     background-image: url(neww.png);
     background-size: cover;
@@ -2262,6 +2128,55 @@ body {
    WORKS - 1920px SCREEN SIZE
    ======================================== */
 @media (min-width: 1900px) {
+
+    .hero-nav { grid-template-columns: 1fr auto 1fr; }
+    .hero-nav .btn-menu,
+    .hero-nav .burger {
+      display: none !important;
+    }
+    .nav-right .btn-primary { display: inline-flex; }
+    .nav-right .simple-nav-menu { display: none !important; }
+  
+    .hero-nav .dropdown-menu {
+      display: flex !important;
+      position: static;
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+      min-width: unset;
+      gap: 88px;
+      padding: 0;
+    }
+  
+    .hero-nav .dropdown-menu a {
+      padding: 0.35em 1.4em;
+      border: 0;
+      color: #ffffff;
+      font-size: 1.5rem;
+      border-radius: 9999px;
+      border: 2px solid transparent;
+      transition: all 0.3s ease;
+    }
+  
+    .hero-nav .dropdown-menu a:hover {
+      background: rgba(255,255,255,0.1);
+      color: #ffffff;
+      border: 2px solid #ffffff;
+    }
+
+    
+  .works-nav { position: fixed; top: 50px; left: 5vw; right: 5vw; z-index: 3000; }
+  .hero-nav .nav-left { justify-self: start; }
+  .hero-nav .nav-center { justify-self: center; }
+  .hero-nav .nav-right { justify-self: end; display: flex; gap: 16px; align-items: center; }
+  .nav-home {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'SFThin', Arial, sans-serif;
+    font-size: 1.5rem;
+  }
+
+
   .about-section {
     background: #ffa600;
     color: #fff;
@@ -2628,7 +2543,7 @@ body {
 
   /* FIGMA SECTION - DESKTOP */
   .figma-section {
-    height: 500px;
+    height: 700px;
     padding: 5vw 0vw 6vw 5vw;
     background-image: url(neww.png);
     background-size: cover;
@@ -2805,7 +2720,7 @@ body {
 /* ========================================
    ABOUT ME SECTION - TABLET (max-width: 900px)
    ======================================== */
-@media (min-width: 601px) and (max-width: 999px) {
+@media (min-width: 801px) and (max-width: 999px) {
   .about-section {
     padding: 48px 0 32px 0;
     padding-left: 4vw;
@@ -2981,7 +2896,7 @@ body {
 /* ========================================
    ABOUT ME SECTION - MOBILE (max-width: 600px)
    ======================================== */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .about-section {
     padding: 30px 0 24px 0;
     padding-left: 2vw;
@@ -3208,7 +3123,7 @@ body {
 /* ========================================
    CARD MODAL POPUP - DESKTOP (min-width: 901px)
    ======================================== */
-@media (min-width: 901px) {
+@media (min-width: 801px) {
   .about-section {
     padding-top: 0;
   }
@@ -3300,40 +3215,8 @@ body {
   }
 }
 
-/* ========================================
-   CARD MODAL POPUP - TABLET (max-width: 900px)
-   ======================================== */
-@media (min-width: 601px) and (max-width: 999px){
-  .card-modal-content {
-    width: 80vw;
-    height: 90vw;
-    max-width: 80vw;
-    max-height: 200vh;
-    padding: 0 0 18px 0;
-  }
-  .card-modal-content img {
-    max-height: 500px;
-  }
-  .card-modal-info {
-    padding: 14px 16px 0 16px;
-  }
-  .card-modal-close {
-    top: 8px;
-    right: 14px;
-    font-size: 1.7rem;
-  }
-  .card-modal-info h3 {
-    font-size: 1.1rem;
-  }
-  .card-modal-info p {
-    font-size: 0.95rem;
-  }
-}
 
-/* ========================================
-   CARD MODAL POPUP - MOBILE (max-width: 600px)
-   ======================================== */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .card-modal-content {
     width: 98vw;
     max-width: 98vw;
