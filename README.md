@@ -11,7 +11,7 @@
 
 <img align="right" width=200px alt="Pedro" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YnV4dGxldng4Z3Q0bWMwMzNneGJ5djF1YjRnN2dzcm0wczVieTM0dyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26tnnpcYVRNJGlHy0/giphy.gif"/>
 
-I'm **Sean (Sebastian Miguel S. Angeles)** — a **Bachelor of Science in Information Technology - Web and Mobile Application Development** student at **FEU Institute of Technology**.  
+I'm **Seb (Sebastian Miguel S. Angeles)** — a **Bachelor of Science in Information Technology - Web and Mobile Application Development** student at **FEU Institute of Technology**.  
 I specialize in **Full-Stack Web Development** and **UI/UX Design**, building modern, responsive, and user-centered applications that combine clean code with intuitive, visually appealing interfaces.  
 
 I’m passionate about turning ideas into **functional, scalable, and user-focused applications**. Currently, I’m enhancing my portfolio and working on full-stack projects that challenge both my technical and design skills.
