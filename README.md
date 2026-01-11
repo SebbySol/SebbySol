@@ -74,11 +74,13 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
             <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black&color=blue">
           </a>
         </p>
-        <p><strong>TQC</strong> is an electronic health record and scheduling system built for The Queen’s Birthing Home Clinic. It replaces traditional recordkeeping with a digital solution featuring OCR scanning and an intuitive UI. I served as the Web Designer and Front-End Developer.</p>
+        <p><strong>TQC</strong> is an electronic health record and scheduling system built for The Queen’s Birthing Home Clinic. It replaces traditional recordkeeping with a digital solution featuring OCR scanning and an intuitive UI. I served as the Web Designer and            Front-End Developer.</p>
       </div>
     </td>
   </tr>
+</table>
 
+<table>
   <tr>
     <td width="50%">
       <h3 align="center">TQC: A Web-Based EHR & Scheduling System</h3>
@@ -92,7 +94,7 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
             <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black&color=blue">
           </a>
         </p>
-        <p><strong>TQC</strong> is an electronic health record and scheduling system built for The Queen’s Birthing Home Clinic. It replaces traditional recordkeeping with a digital solution featuring OCR scanning and an intuitive UI. I served as the Web Designer and Front-End Developer.</p>
+        <p><strong>TQC</strong> is an electronic health record and scheduling system built for The Queen’s Birthing Home Clinic. It replaces traditional recordkeeping with a digital solution featuring OCR scanning and an intuitive UI. I served as the Web Designer and            Front-End Developer.</p>
       </div>
     </td>
   </tr>
