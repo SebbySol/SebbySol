@@ -19,7 +19,7 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
 
 
 
-- 💻 Tools I use most: VS Code, Node.js, Git/GitHub, Postman, and MySQL
+- 💻 Tools I use most: VS Code, Node.js, Figma, & Git/GitHub.
 - 🌐 I stay inspired by developer communities like Stack Overflow, Dev.to, and GitHub
 - 🧠 Currently learning: React.js, Node.js/Express, REST APIs, and Full-stack project architecture
 - 📫 Reach me at: <a href="mailto:sebastianangeles14@gmail.com">sebastianangeles14@gmail.com </a>
