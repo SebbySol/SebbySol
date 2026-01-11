@@ -78,7 +78,6 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
     <td width="50%">
       <h3 align="center">University of Cagayan Valley</h3>
       <div align="center">
-        <img src="[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQaMhaDNGSNWHJlN-v1JDjqfq4T_O2e1oP5KsljEt3RpeBAVKWzbhr4uC1do3HtkPO8&usqp=CAU](https://github.com/SebbySol/TQC" target="_blank"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQaMhaDNGSNWHJYlN-v1JDjqfq4T_O2e1oP5KsljEt3RpeBAVKWzbhr4uC1do3HtkPO8&usqp=CAU)" width="200" style="object-fit: cover;" alt="UCV Project">
         <br><br>
         <p><strong>UCV</strong> A university website designed to centralize campus information, featuring news and events, academic updates, and student-focused content. It provides an organized, user-friendly platform for showcasing announcements, institutional activities, and important university resources.</p>
       </div>
