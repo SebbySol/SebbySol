@@ -65,14 +65,14 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
     <td width="50%">
       <h3 align="center">TQC: A Web-Based EHR & Scheduling System</h3>
       <div align="center">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQaMhaDNGSNWHJYlN-v1JDjqfq4T_O2e1oP5KsljEt3RpeBAVKWzbhr4uC1do3HtkPO8&usqp=CAU" width="200" style="object-fit: cover;" alt="TQC Project">
-          <br><br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQaMhaDNGSNWHJlN-v1JDjqfq4T_O2e1oP5KsljEt3RpeBAVKWzbhr4uC1do3HtkPO8&usqp=CAU" width="200" style="object-fit: cover;" alt="TQC Project">
+        <br><br>
         <p>
           <a href="https://github.com/SebbySol/TQC" target="_blank">
             <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black&color=blue">
           </a>
         </p>
-        <p><strong>TQC</strong> is an electronic health record and scheduling system built for The Queen’s Birthing Home Clinic. It replaces traditional recordkeeping with a digital solution featuring OCR scanning and an intuitive UI. I served as the Web Designer and            Front-End Developer.</p>
+        <p><strong>TQC</strong> is an electronic health record and scheduling system built for The Queen’s Birthing Home Clinic. It replaces traditional recordkeeping with a digital solution featuring OCR scanning and an intuitive UI. I served as the Web Designer and Front-End Developer.</p>
       </div>
     </td>
   </tr>
@@ -83,10 +83,8 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
     <td width="50%">
       <h3 align="center">University of Cagayan Valley</h3>
       <div align="center">
-        <a href="https://github.com/SebbySol/TQC" target="_blank">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQaMhaDNGSNWHJYlN-v1JDjqfq4T_O2e1oP5KsljEt3RpeBAVKWzbhr4uC1do3HtkPO8&usqp=CAU" width="200" style="object-fit: cover;" alt="TQC Project">
-        </a>
-          <br><br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQaMhaDNGSNWHJlN-v1JDjqfq4T_O2e1oP5KsljEt3RpeBAVKWzbhr4uC1do3HtkPO8&usqp=CAU" width="200" style="object-fit: cover;" alt="UCV Project">
+        <br><br>
         <p>
           <a href="https://github.com/SebbySol/TQC" target="_blank">
             <img src="https://img.shields.io/badge/CODE-ff9?style=for-the-badge&logo=github&logoColor=black&color=blue">
@@ -97,6 +95,8 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
     </td>
   </tr>
 </table>
+<br>
+
 <br>
 
 
