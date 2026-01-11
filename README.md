@@ -72,18 +72,6 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
     </td>
   </tr>
 </table>
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">University of Cagayan Valley</h3>
-      <div align="center">
-        <br><br>
-        <p><strong>UCV</strong> A university website designed to centralize campus information, featuring news and events, academic updates, and student-focused content. It provides an organized, user-friendly platform for showcasing announcements, institutional activities, and important university resources.</p>
-      </div>
-    </td>
-  </tr>
-</table>
 <br>
 
 <br>
