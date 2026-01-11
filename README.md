@@ -88,13 +88,6 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
 <p align="center">
 <table align="center">
 <tr>
-<td width="50%" align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=SebbySol&theme=nightowl&show_icons=true&count_private=true" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SebbySol&theme=nightowl&hide_border=false" alt="SebbySol streak" />
-</td>
-<td width="50%" align="center">
-    <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=SebbySol&theme=nightowl&hide_border=false&langs_count=10"/>
-</td>
 </tr>
 </table>
 </p>
