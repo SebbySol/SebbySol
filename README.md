@@ -52,6 +52,10 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
 ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)&nbsp;
 ![Netlify](https://img.shields.io/badge/Netlify-%2300C7B7.svg?style=for-the-badge&logo=netlify&logoColor=white)&nbsp;
 
+###### Hobbies:
+![Dota 2](https://img.shields.io/badge/Dota%202-white?style=for-the-badge&logo=dotnet&logoColor=red)&nbsp;
+![Poker](https://img.shields.io/badge/Poker-000000?style=for-the-badge&logo=clubhouse&logoColor=white)&nbsp;
+
 <br>
 <br>
 
