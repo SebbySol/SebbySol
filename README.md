@@ -49,7 +49,7 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
 
 ###### Platforms & Hosting:
 ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)&nbsp;
-![Cloudflare](https://img.shields.io/badge/Cloudflare-#F7631E.svg?style=for-the-badge&logo=cloudflare&logoColor=white)&nbsp;
+![Cloudflare](https://img.shields.io/badge/Cloudflare-%23000000.svg?style=for-the-badge&logo=cloudflare&logoColor=white)&nbsp;
 <br>
 <br>
 
