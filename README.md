@@ -36,7 +36,7 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)&nbsp;
 ![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
-![Bootstrap](https://img.shields.io/badge/javascript-55286F?style=for-the-badge&logo=bootstrap&logoColor=white)&nbsp;
+![Bootstrap](https://img.shields.io/badge/bootstrap-55286F?style=for-the-badge&logo=bootstrap&logoColor=white)&nbsp;
 
 ###### Tech Stack currently using:
 ![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=white)&nbsp;
