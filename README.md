@@ -71,11 +71,11 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
 
   <tr>
     <td width="50%">
-      <h3 align="center">TQC: A Web-Based EHR & Scheduling System</h3>
+      <h3 align="center">Portfolio</h3>
       <div align="center">
         <img href="https://sebbysolportfolio.vercel.app/" target="_blank"> <img src="project-2.jpg" width="500" style="object-fit: cover;" alt="sebbysol">
         <br><br>
-        <p><strong>TQC</strong> is an electronic health record and scheduling system built for The Queen’s Birthing Home Clinic. It replaces traditional recordkeeping with a digital solution featuring OCR scanning and an intuitive UI. I served as the Web Designer and Front-End Developer.</p>
+        <p>A modern, fully responsive portfolio designed to showcase my journey as a web developer. Built with a focus on clean architecture and user experience, this project leverages HTML5 and CSS3 for structure and custom styling, while utilizing Bootstrap to ensure a seamless experience across all device sizes. It serves as a central hub for my latest projects and technical skills.</p>
       </div>
     </td>
   </tr>
