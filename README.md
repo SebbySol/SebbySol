@@ -62,7 +62,7 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
     <td width="50%">
       <h3 align="center">TQC: A Web-Based EHR & Scheduling System</h3>
       <div align="center">
-        <img src="TQC.jpg" target="_blank" width="200" style="object-fit: cover;" alt="TQC Project">
+        <img src="TQC.jpg" target="_blank" width="500" style="object-fit: cover;" alt="TQC Project">
         <br><br>
         <p><strong>TQC</strong> is an electronic health record and scheduling system built for The Queen’s Birthing Home Clinic. It replaces traditional recordkeeping with a digital solution featuring OCR scanning and an intuitive UI. I served as the Web Designer and Front-End Developer.</p>
       </div>
@@ -78,6 +78,32 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
           </a>
         <br><br>
         <p>A modern, fully responsive portfolio designed to showcase my journey as a web developer. Built with a focus on clean architecture and user experience, this project leverages HTML5 and CSS3 for structure and custom styling, while utilizing Bootstrap to ensure a seamless experience across all device sizes. It serves as a central hub for my latest projects and technical skills.</p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <h3 align="center">Simple Quiz App</h3>
+      <div align="center">
+         <a href="https://simplequiz.pages.dev/" target="_blank">
+            <img src="" width="500" style="object-fit: cover; cursor: pointer;" alt="simplequizapp">
+          </a>
+        <br><br>
+        <p>A dynamic Simple Quiz App that challenges users with a variety of general knowledge questions. This project highlights the use of JavaScript for question randomization and real-time score tracking, paired with a clean, responsive UI built using Bootstrap. It focuses on providing a seamless user experience with instant feedback and mobile-first compatibility</p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <h3 align="center">Expense Tracker</h3>
+      <div align="center">
+         <a href="https://expensetrack.pages.dev/" target="_blank">
+            <img src="" width="500" style="object-fit: cover; cursor: pointer;" alt="simplequizapp">
+          </a>
+        <br><br>
+        <p>A streamlined personal finance tool that allows users to track their spending and income. Built with HTML, CSS, and JavaScript, it features a dynamic list of transactions and utilizes Local Storage to save data locally on the user's device. The UI is designed for simplicity, providing a clear overview of financial health at a glance.</p>
       </div>
     </td>
   </tr>
