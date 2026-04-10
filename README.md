@@ -90,7 +90,7 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
             <img src="quiz-app.png" width="500" style="object-fit: cover; cursor: pointer;" alt="simplequizapp">
           </a>
         <br><br>
-        <p>A dynamic Simple Quiz App that challenges users with a variety of general knowledge questions. This project highlights the use of JavaScript for question randomization and real-time score tracking, paired with a clean, responsive UI built using Bootstrap. It focuses on providing a seamless user experience with instant feedback and mobile-first compatibility</p>
+        <p>A dynamic Simple Quiz App that challenges users with a variety of general knowledge questions. This project highlights the use of JavaScript for question randomization and real-time score tracking, paired with a clean, responsive UI built using HTML and CSS. It focuses on providing a seamless user experience with instant feedback and mobile-first compatibility</p>
       </div>
     </td>
   </tr>
