@@ -39,8 +39,8 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
 ![Bootstrap](https://img.shields.io/badge/bootstrap-55286F?style=for-the-badge&logo=bootstrap&logoColor=white)&nbsp;
 
 ###### Tech Stack currently using:
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=white)&nbsp;
-![PHP](https://img.shields.io/badge/PHP-000?style=for-the-badge&logo=php&logoColor=white)&nbsp;
+![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp;
+![PHP](https://img.shields.io/badge/php-136AB6?style=for-the-badge&logo=php&logoColor=white)&nbsp;
 
 
 ###### Development Tools:
