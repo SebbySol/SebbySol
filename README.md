@@ -39,11 +39,8 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
 ![Bootstrap](https://img.shields.io/badge/bootstrap-55286F?style=for-the-badge&logo=bootstrap&logoColor=white)&nbsp;
 
 ###### Tech Stack currently using:
-![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=white)&nbsp;
-![Java](https://img.shields.io/badge/Java-000.svg?style=for-the-badge&logo=openjdk&logoColor=white)&nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=white)&nbsp;
 ![PHP](https://img.shields.io/badge/PHP-000?style=for-the-badge&logo=php&logoColor=white)&nbsp;
-![Laravel](https://img.shields.io/badge/Laravel-000?style=for-the-badge&logo=laravel&logoColor=white)&nbsp;
 
 
 ###### Development Tools:
@@ -52,7 +49,7 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
 
 ###### Platforms & Hosting:
 ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)&nbsp;
-![Netlify](https://img.shields.io/badge/Netlify-%2300C7B7.svg?style=for-the-badge&logo=netlify&logoColor=white)&nbsp;
+![Cloudflare](https://img.shields.io/badge/Cloudflare-#F7631E.svg?style=for-the-badge&logo=cloudflare&logoColor=white)&nbsp;
 <br>
 <br>
 
