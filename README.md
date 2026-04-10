@@ -73,12 +73,15 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
     <td width="50%">
       <h3 align="center">Portfolio</h3>
       <div align="center">
-        <img href="https://sebbysolportfolio.vercel.app/" target="_blank"> <img src="project-2.jpg" width="500" style="object-fit: cover;" alt="sebbysol">
+         <a href="https://sebbysolportfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <img src="project-2.jpg" width="500" style="object-fit: cover; cursor: pointer;" alt="sebbysol">
+          </a>
         <br><br>
         <p>A modern, fully responsive portfolio designed to showcase my journey as a web developer. Built with a focus on clean architecture and user experience, this project leverages HTML5 and CSS3 for structure and custom styling, while utilizing Bootstrap to ensure a seamless experience across all device sizes. It serves as a central hub for my latest projects and technical skills.</p>
       </div>
     </td>
   </tr>
+  
 </table>
 <br>
 
