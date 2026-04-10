@@ -87,7 +87,7 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
       <h3 align="center">Simple Quiz App</h3>
       <div align="center">
          <a href="https://simplequiz.pages.dev/" target="_blank">
-            <img src="" width="500" style="object-fit: cover; cursor: pointer;" alt="simplequizapp">
+            <img src="quiz-app.png" width="500" style="object-fit: cover; cursor: pointer;" alt="simplequizapp">
           </a>
         <br><br>
         <p>A dynamic Simple Quiz App that challenges users with a variety of general knowledge questions. This project highlights the use of JavaScript for question randomization and real-time score tracking, paired with a clean, responsive UI built using Bootstrap. It focuses on providing a seamless user experience with instant feedback and mobile-first compatibility</p>
@@ -100,7 +100,7 @@ I’m passionate about turning ideas into **functional, scalable, and user-focus
       <h3 align="center">Expense Tracker</h3>
       <div align="center">
          <a href="https://expensetrack.pages.dev/" target="_blank">
-            <img src="" width="500" style="object-fit: cover; cursor: pointer;" alt="simplequizapp">
+            <img src="expense-tracker.png" width="500" style="object-fit: cover; cursor: pointer;" alt="simplequizapp">
           </a>
         <br><br>
         <p>A streamlined personal finance tool that allows users to track their spending and income. Built with HTML, CSS, and JavaScript, it features a dynamic list of transactions and utilizes Local Storage to save data locally on the user's device. The UI is designed for simplicity, providing a clear overview of financial health at a glance.</p>
